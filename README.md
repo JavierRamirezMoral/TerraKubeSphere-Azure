@@ -18,7 +18,7 @@ In this first part, we will see how to create our image and put it inside a Dock
 
 ### Why Do we need Docker? 
 
-We need Docker for several reasons, but let's illustrate it with an example: 
+We need Docker for several reasons, but let's illustrate it with an example: <br>
 
 <div align="justify">  Imagine you're a DevOps engineer responsible for deploying and managing a web application that consists of multiple microservices. Each microservice is developed by a different team using various programming languages and frameworks. Traditionally, deploying and managing these microservices across different environments would be complex and time-consuming due to the diverse dependencies and configurations. 
 
@@ -73,9 +73,9 @@ https://flic.kr/p/2pCrs4W
 
 ### Why Do we need Terraform? 
 
-<div align="justify">  We need Terraform for various reasons, but let's delve into an example to illustrate its importance: 
+We need Terraform for various reasons, but let's delve into an example to illustrate its importance: <br>
 
-Imagine you're part of a team tasked with deploying a web application to the cloud. Your application relies on multiple cloud services such as virtual machines, databases, load balancers, and networking configurations. Traditionally, setting up and managing these resources manually through the cloud provider's console or command-line interface would be cumbersome and error-prone, especially as your infrastructure grows in complexity. 
+<div align="justify"> Imagine you're part of a team tasked with deploying a web application to the cloud. Your application relies on multiple cloud services such as virtual machines, databases, load balancers, and networking configurations. Traditionally, setting up and managing these resources manually through the cloud provider's console or command-line interface would be cumbersome and error-prone, especially as your infrastructure grows in complexity. 
 
 Here's how Terraform can help: 
 
@@ -127,9 +127,9 @@ https://flic.kr/p/2pCt8f2
 
 ### Why Do we need Kubernetes? 
 
-<div align="justify"> We need Kubernetes for a variety of reasons, but let's delve into an example to illustrate its significance: 
+We need Kubernetes for a variety of reasons, but let's delve into an example to illustrate its significance: <br>
 
-Imagine you're running a large-scale online shopping platform that experiences fluctuating traffic throughout the day. During peak hours, your website receives a surge in visitors, requiring additional server resources to handle the increased load. Traditionally, managing this dynamic workload manually would be challenging and inefficient, as it would involve provisioning, deploying, and scaling servers manually, often leading to downtime or performance issues. 
+<div align="justify"> Imagine you're running a large-scale online shopping platform that experiences fluctuating traffic throughout the day. During peak hours, your website receives a surge in visitors, requiring additional server resources to handle the increased load. Traditionally, managing this dynamic workload manually would be challenging and inefficient, as it would involve provisioning, deploying, and scaling servers manually, often leading to downtime or performance issues. 
 
 Here's how Kubernetes can address these challenges: 
 
