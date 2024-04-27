@@ -190,5 +190,5 @@ Centro: Tajamar  
 
 Año académico: 2023-2024  
 
-LinkedIn:https://www.linkedin.com/in/javier-ramirez-moral/ 
+LinkedIn: https://www.linkedin.com/in/javier-ramirez-moral/ 
  
