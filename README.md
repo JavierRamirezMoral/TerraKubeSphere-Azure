@@ -6,7 +6,7 @@
 In this Post, we are going to deploy our application as explained in this design using tools such as Docker, Kubernetes or Terraform.
 The first thing we will do is to create a Docker image of our application and upload it to our Docker Hub repository. Subsequently, we will use Terraform to deploy several resources in our Azure account. Among them, we will deploy an ACR along with the Docker image we created earlier to store it there and have it ready to deploy to our AKS. In addition, we will also deploy monitoring resources to later associate them to the resources we deploy, such as Grafana and Prometheus. Finally, once everything is deployed, we will use Kubernetes to deploy the image of our app in the AKS from our ACR. Accessing it through a browser. </div> <br>
 
-https://flic.kr/p/2pCtK8f 
+![Alt text](https://github.com/JavierRamirezMoral/TerraKubeSphere-Azure/blob/main/Images/portada.jpg)
 <br> 
 
 ## Part 1: Build a Docker Image and Upload it to Docker Hub. 
@@ -58,8 +58,7 @@ In summary, Docker simplifies the deployment and management of complex applicati
 
 * Lacks built-in solutions for data backup and recovery, necessitating additional tools or processes. 
 
-https://flic.kr/p/2pCrs4W 
-
+![Alt text](https://github.com/JavierRamirezMoral/TerraKubeSphere-Azure/blob/main/Images/docker.png)
   
 ## Part 2: Implementation of resources and push image with Terraform in Azure.  
 
@@ -113,9 +112,9 @@ In summary, Terraform streamlines the process of provisioning, managing, and sca
 
 * Lack of Built-in Testing: Terraform lacks comprehensive built-in testing capabilities, requiring additional tools and practices to ensure infrastructure reliability and resilience. 
 
-
-https://flic.kr/p/2pCt8f2 
-
+<div>
+  <img  align=center src="https://github.com/JavierRamirezMoral/TerraKubeSphere-Azure/blob/main/Images/terraform.png">
+</div>
 
 ## Part 3: Deploy Image with Kubernetes in AKS. 
 
@@ -172,7 +171,7 @@ In summary, Kubernetes simplifies the management of containerized applications b
 
  
 
-https://flic.kr/p/2pCsyUE 
+![Alt text](https://github.com/JavierRamirezMoral/TerraKubeSphere-Azure/blob/main/Images/kubernetes.jpg)
 
  
 
