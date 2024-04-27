@@ -1,5 +1,7 @@
 # TerraKubeSphere I: Exploring the Azure Cloud with Terraform, Docker and Kubernetes.
 
+_At the end of this README, you can find the VideoTutorial_
+
 ## Introduction: Design. 
 
  <div align="justify"> 
@@ -173,7 +175,10 @@ In summary, Kubernetes simplifies the management of containerized applications b
 
 ![Alt text](https://github.com/JavierRamirezMoral/TerraKubeSphere-Azure/blob/main/Images/kubernetes.jpg)
 
- 
+
+ # VideoTutorial in YT:
+
+ [<img src="https://github.com/JavierRamirezMoral/TerraKubeSphere-Azure/blob/main/Images/PortadaVideo.png" width="100%">](https://youtu.be/h1270o-moR8?si=-KoWb_I6jKGYiCUu "Now in Android: 55")
 
 Autor/a: Javier Ramírez Moral   
 
