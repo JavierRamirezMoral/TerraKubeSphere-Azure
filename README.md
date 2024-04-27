@@ -1,6 +1,6 @@
 # TerraKubeSphere I: Exploring the Azure Cloud with Terraform, Docker and Kubernetes.
 
-_At the end of this README, you can find the VideoTutorial_
+_At the end of this README, you can find the VideoTutorial._
 
 ## Introduction: Design. 
 
