@@ -6,7 +6,7 @@
 In this Post, we are going to deploy our application as explained in this design using tools such as Docker, Kubernetes or Terraform.
 The first thing we will do is to create a Docker image of our application and upload it to our Docker Hub repository. Subsequently, we will use Terraform to deploy several resources in our Azure account. Among them, we will deploy an ACR along with the Docker image we created earlier to store it there and have it ready to deploy to our AKS. In addition, we will also deploy monitoring resources to later associate them to the resources we deploy, such as Grafana and Prometheus. Finally, once everything is deployed, we will use Kubernetes to deploy the image of our app in the AKS from our ACR. Accessing it through a browser. </div> <br>
 
-![Alt text](https://github.com/JavierRamirezMoral/TerraKubeSphere-Azure/blob/main/Images/portada.jpg)
+![Alt text](https://github.com/JavierRamirezMoral/TerraKubeSphere-Azure/blob/main/Images/docker1.png)
 <br> 
 
 ## Part 1: Build a Docker Image and Upload it to Docker Hub. 
