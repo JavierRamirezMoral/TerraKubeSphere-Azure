@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app104-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: app104
+  template:
+    metadata:
+      labels:
+        app: app104
+    spec:
+      containers:
+      - name: moralramirezjavier
+        image: moralramirezjavier.azurecr.io/app104
+  # Especifica la imagen del ACR de Azure
+        ports:
+        - containerPort: 80
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app104-service
+spec:
+  selector:
+    app: app104
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer  # Cambia el tipo de servicio según tus necesidades
