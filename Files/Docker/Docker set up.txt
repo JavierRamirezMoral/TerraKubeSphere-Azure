@@ -1,0 +1,68 @@
+How to build your image 
+
+We need to have docker installed on our operating system. you can download it from this page:
+
+https://docs.docker.com/engine/install/ubuntu/ 
+
+And also we need to have install Ngnix, you can follow this page to do it: 
+
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04 
+
+Step 1 - Create a new directory mkdir app104 cd app104  
+
+Step 2 - Create a file called "index.html" echo  index.html  
+
+Step 3 - Create a file named Dockerfile touch Dockerfile  
+
+Step 4 - Open the "Dockerfile" file in a text editor and add the following lines:  
+
+FROM nginx  
+
+COPY index.html /usr/share/nginx/html  
+
+This Dockerfile defines a new Docker image that  
+
+- uses the official nginx image as a base 
+
+- then copy the index.html file to the appropriate location in the image 
+
+A Dockerfile is a text file with instructions to build a Docker Image. When we run a Dockerfile, Docker image is created. When we run the docker image, containers are created 
+
+Step 5 - Start docker & Build docker image from dockerfile  docker build -t app104 . 
+
+This command builds a new Docker image with the tag "app104" using the Dockerfile in the current directory. 
+
+now to View the docker images I have created: docker images 
+
+Step 6 - Run docker container from the image   docker run -p 8080:80 app104 
+
+This tells Docker to run the app104 container and map port 8080 on your local machine to port 80 inside the container 
+
+Step 7 - Access the app 
+
+Open a web browser and navigate to http://localhost:8080 to see the app displayed in your web browser. so far so good 
+
+
+How to Upload image to Docker HUB 
+
+We have to log into our Docker Hub account to push the new image. To successfully log into Docker Hub from the command line, you must first create an access token. Log in to Docker Hub and click your profile image. From the popup menu, select Account Settings. On the resulting page, click Security in the left navigation and then click New Access Token 
+
+docker login -u NAME 
+
+Where NAME is your Docker Hub username. You will be prompted for your Docker Hub password, where you’ll use the access token you just generated. 
+
+Finally, we’re going to tag our new image and then push it to Docker Hub. First tag the image with :latest using the command: 
+
+docker image tag app104 javier0001/app104:latest 
+
+Where USER is your Docker Hub username. Now that the image is tagged, we can push it to Docker Hub with: 
+
+docker image push javier0001/app104:latest 
+
+When the push completes, you should find the app104:latest image in your Docker Hub repository. 
+
+And that’s all there is to building a Docker image and pushing it to your Docker Hub repository in a simple way. 
+
+You can see the image created in my repository in Docker hub. 
+
+or trought the CLI: Docker Images 
